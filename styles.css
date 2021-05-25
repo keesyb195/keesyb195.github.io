@@ -27,8 +27,7 @@ html {
 }
 
 body {
-  font-family: reason-new, 'Work Sans', sans-serif !important;
-
+font-family: reason-new, 'Libre Franklin', sans-serif;!imporant;
   /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -75,14 +74,17 @@ strong {
 
 /* H1 */
 h1.notion-heading, .notion-page__properties .notion-property__text {
-  font-family: psfournier-std, 'Nanum Myeongjo', serif !important;
-  font-weight: 200 !important;
+  font-family: 'Libre Franklin', sans-serif !important;
+
+  font-weight: 600 !important;
   font-size: 1.875rem !important;
 }
+
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
   letter-spacing: -0.03em !important;
 }
+
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
     font-size: 2.55rem !important;
@@ -90,14 +92,14 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 }
 /* H2 */
 h2.notion-heading {
-  font-family: psfournier-std, 'Nanum Myeongjo', serif !important;
-  font-weight: 200 !important;
+  font-family: 'Libre Franklin', sans-serif !important;
+  font-weight: 400 !important;
   letter-spacing: -0.01em !important;
 }
 
 /* H3 */
 h3.notion-heading {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   margin-bottom: 0.25em !important;
 }
 
