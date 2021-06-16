@@ -4,10 +4,10 @@ html {
 
 /* --- Change default colors --- */
 :root {
-  --color-bg-default: #212121 !important;
+  --color-bg-default: #080808 !important;
   --color-text-default: #ededed !important;
-  --color-text-default-light: #4B5673 !important;
-  --color-text-gray: #959BA9 !important;
+  --color-text-default-light: #EDEFF1 !important;
+  --color-text-gray: ##F1F1ED !important;
   --collection-card-cover-size-large: 210px !important;
 }
 @media screen and (min-width: 50em) {
@@ -158,7 +158,7 @@ h3.notion-heading {
   margin-right: -20px;
 }
 .nav-link {
-  transition: all .3s ease-in-out;
+  transition: all .1s ease-in-out;
   justify-content: center;
   align-items: center;
   padding: 0 20px 0 0;
@@ -319,7 +319,7 @@ h3.notion-heading {
 /* Add underline to title on hover of project card */
 .notion-collection-card.gallery .notion-collection-card__property .notion-semantic-string span {
   border-bottom: 1px solid transparent !important;
-  transition: border-color .4s ease-in;
+  transition: border-color .2s ease-in;
 }
 .notion-collection-card.gallery:hover .notion-collection-card__property .notion-semantic-string span {
   border-bottom: 1px solid var(--color-text-gray) !important;
