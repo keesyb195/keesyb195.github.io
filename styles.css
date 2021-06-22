@@ -4,7 +4,7 @@
 
 /* Variables */
 :root {
-  --transition: all 0.2s !important;
+  --transition: all 0.3s !important;
 }
 
 /* Hides certain elements */
@@ -101,8 +101,8 @@ p {
 
 /* Width limit only on homepage */
 #page-index h1 {
-  font-size: 58px !important;
-  max-width: 1200px !important;
+  font-size: 52px !important;
+  max-width: 1400px !important;
 }
 
 .notion-quote > * {
