@@ -209,7 +209,7 @@ h2 {
 @media screen and (max-width: 600px) {
 
   #page-index .super-content {
-    margin-top: 160px !important;
+    margin-top: 75px !important;
   }
 
   .notion-header__cover.no-cover {
