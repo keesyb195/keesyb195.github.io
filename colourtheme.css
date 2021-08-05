@@ -1,0 +1,14 @@
+:root {
+  --text-color: #f9f9fa !important;
+  --background-color: #2706cd !important;
+  --color-text-gray: #c4c3cd !important;
+  --divider-color: #8a879b !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  color: var(--text-color) !important;
+}
+
+body {
+  background-color: var(--background-color) !important;
+}
