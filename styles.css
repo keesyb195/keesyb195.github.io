@@ -100,7 +100,7 @@ p {
 }
 
 h2 {
-  font-size: 28px !important;
+  font-size: 2px !important;
   line-height: 100% !important;
 }
 
@@ -231,7 +231,7 @@ h2 {
   }
 
   #page-index h1 {
-    font-size: 32px !important;
+    font-size: 40px !important;
   }
 
   .notion-header.page {
