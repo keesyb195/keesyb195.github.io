@@ -106,7 +106,7 @@ h2 {
 
 /* Width limit only on homepage */
 #page-index h1 {
-  font-size: 65px !important;
+  font-size: 75px !important;
   max-width: 1800px !important;
 }
 .notion-quote > * {
