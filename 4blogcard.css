@@ -31,8 +31,8 @@
   align-items: flex-start !important;
   justify-content: flex-start !important;
   box-shadow: none !important;
-  border-radius: 10px !important;
-  transition: transform 0.4s !important;
+  border-radius: 4px !important;
+  transition: transform 0.2s !important;
   transform: scale(1) !important;
   background: transparent !important;
 }
