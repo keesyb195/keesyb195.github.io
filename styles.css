@@ -29,22 +29,22 @@
 /*Importing custom font files*/
 
 @font-face {
-    font-family: 'FUNGISRegular';
+    font-family: 'FUNGISRegular' !important;
     src: url('https://githubraw.com/keesyb195/fungis-font/main/FUNGIS%20Regular.woff2') format('woff2'),
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+             font-style: normal !important;
+    font-weight: 200;
+    text-rendering: optimizeLegibility !important;
 }
 
 
 /* Webfont: FUNGIS-Bold */
 
 @font-face {
-    font-family: 'FUNGISBold';
+    font-family: 'FUNGISBold'!important;
     src: url('https://githubraw.com/keesyb195/fungis-font/main/FUNGIS%20Bold.woff2') format('woff2'),
-             font-style: bold;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
+             font-style: bold !important;
+    font-weight: 400;
+    text-rendering: optimizeLegibility !important;
 }
 
 
@@ -116,18 +116,28 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6, p {
-    font-weight: 400 !important;
+h1, h2, h3, h4, h5, h6, p{
+    font-weight: 400, 200 !important;
 }
+
+
+h1 {
+  font-size: 52px !important;
+  line-height: 200% !important;
+  font-weight: 400 !important;
+}
+
 
 p {
   font-size: 18px !important;
   line-height: 200% !important;
+  font-weight: 200 !important;
 }
 
 h2 {
   font-size: 22px !important;
   line-height: 100% !important;
+  font-weight: 200 !important;
 }
 
 /* Width limit only on homepage */
