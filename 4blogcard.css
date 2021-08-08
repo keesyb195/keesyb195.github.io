@@ -31,7 +31,7 @@
   align-items: flex-start !important;
   justify-content: flex-start !important;
   box-shadow: none !important;
-  border-radius: 16px !important;
+  border-radius: 37px !important;
   transition: transform 0.5s !important;
   transform: scale(1) !important;
   background: transparent !important;
@@ -39,7 +39,7 @@
 
 .notion-collection-card:hover {
   background: transparent !important;
-  transform: scale(0.65) !important;
+  transform: scale(0.95) !important;
   transition: transform 0.5s !important;
 }
 
