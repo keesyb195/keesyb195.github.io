@@ -17,7 +17,6 @@
 .notion-breadcrumb__item {
   display: none !important;
 }
-
 /* Fixed board issue */
 .notion-collection-board .large {
   overflow: hidden !important;
@@ -27,7 +26,34 @@
   overflow: hidden !important;
 }
 
+/*Importing custom font files*/
+
+@font-face {
+    font-family: 'FUNGISRegular';
+    src: url('https://githubraw.com/keesyb195/fungis-font/main/FUNGIS%20Regular.woff2') format('woff2'),
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: FUNGIS-Bold */
+
+@font-face {
+    font-family: 'FUNGISBold';
+    src: url('https://githubraw.com/keesyb195/fungis-font/main/FUNGIS%20Bold.woff2') format('woff2'),
+             font-style: bold;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+
+
 /* Loading animation */
+
+
+
+
 
 body {
     -webkit-animation: fadeIn 1s !important;
