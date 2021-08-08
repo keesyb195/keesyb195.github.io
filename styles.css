@@ -91,34 +91,43 @@ body {
   display: flex !important;
 }
 
-/* Always show the page title */
-.notion-navbar a[href="/"] {
-  display: flex !important;
-}
-
 /* Typography */
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p{
     font-weight: 400 !important;
 }
+
+
+h1 {
+  font-size: 52px !important;
+  line-height: 200% !important;
+  font-weight: 400 !important;
+}
+
 
 p {
   font-size: 18px !important;
   line-height: 200% !important;
+  font-weight: 400 !important;
+}
+
+h2 {
+  font-size: 22px !important;
+  line-height: 100% !important;
+  font-weight: 400 !important;
 }
 
 /* Width limit only on homepage */
 #page-index h1 {
-  font-size: 48px !important;
-  max-width: 700px !important;
+  font-size: 75px !important;
+  max-width: 1800px !important;
 }
-
 .notion-quote > * {
   text-decoration: none !important;
 }
 
 .notion-header.page {
   margin-bottom: 0px !important;
-  padding: 0px 48px !important;
+  padding: 0px 28px !important;
 }
 
 .notion-header__cover.no-cover {
@@ -128,6 +137,7 @@ p {
 /* Divider */
 .notion-divider {
     border-bottom: 1px solid var(--divider-color) !important;
+}
 
 /*—————————————————————————————————————————————*/
 /* Links  */
@@ -239,3 +249,4 @@ p {
   .notion-header.page {
       padding: 0px 24px !important;
     }
+}
