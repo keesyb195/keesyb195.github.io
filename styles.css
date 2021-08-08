@@ -211,7 +211,7 @@ p {
 @media screen and (max-width: 600px) {
 
   #page-index .super-content {
-    margin-top: 75px !important;
+    margin-top: 35px !important;
   }
 
   .notion-header__cover.no-cover {
