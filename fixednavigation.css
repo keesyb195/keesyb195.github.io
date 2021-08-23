@@ -26,7 +26,7 @@
   padding-right: 48px !important;
   justify-content: flex-end !important;
   align-items: center !important;
-  font-size: 16px !important;
+  font-size: 26px !important;
   position: absolute  !important;
   z-index: 9999 !important;
   display: flex !important;
@@ -50,6 +50,7 @@
   color: var(--text-color) !important;
   transition: var(--transition) !important;
   font-weight: 400 !important;
+  font-size: 48px !important;
 }
 
 notion-navbar__title:hover {
@@ -75,7 +76,7 @@ notion-navbar__title:hover {
     padding: 0px 24px 0px 24px !important;
     justify-content: flex-start !important;
     top: 64px !important;
-    font-size: 24px !important;
+    font-size: 30px !important;
     width: 100% !important;
   }
 
