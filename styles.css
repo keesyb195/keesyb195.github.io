@@ -4,7 +4,7 @@
 
 /* Variables */
 :root {
-  --transition: all 0.2s !important;
+  --transition: all 0.3s !important;
 }
 
 /* Hides certain elements */
@@ -17,6 +17,7 @@
 .notion-breadcrumb__item {
   display: none !important;
 }
+
 /* Fixed board issue */
 .notion-collection-board .large {
   overflow: hidden !important;
@@ -25,11 +26,8 @@
 .notion-collection-board {
   overflow: hidden !important;
 }
+
 /* Loading animation */
-
-
-
-
 
 body {
     -webkit-animation: fadeIn 1s !important;
@@ -76,8 +74,8 @@ body {
 
 /* Super wrapper*/
 #page-index .super-content.max-width {
-  max-width: 1800px !important;
-  padding: 0px 45px !important;
+  max-width: 1344px !important;
+  padding: 0px 48px !important;
 }
 
 /* Blog posts wrapper */
@@ -92,42 +90,28 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6, p{
-    font-weight: 400, 500, 700 !important;
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 400 !important;
 }
-
-
-h1 {
-  font-size: 52px !important;
-  line-height: 100% !important;
-  font-weight: 700 !important;
-}
-
 
 p {
   font-size: 18px !important;
   line-height: 200% !important;
-  font-weight: 400 !important;
-}
-
-h2 {
-  font-size: 32px !important;
-  line-height: 100% !important;
-  font-weight: 500 !important;
 }
 
 /* Width limit only on homepage */
 #page-index h1 {
-  font-size: 75px !important;
-  max-width: 1800px !important;
+  font-size: 48px !important;
+  max-width: 700px !important;
 }
+
 .notion-quote > * {
   text-decoration: none !important;
 }
 
 .notion-header.page {
   margin-bottom: 0px !important;
-  padding: 0px 28px !important;
+  padding: 0px 48px !important;
 }
 
 .notion-header__cover.no-cover {
@@ -221,7 +205,7 @@ h2 {
 @media screen and (max-width: 600px) {
 
   #page-index .super-content {
-    margin-top: 75px !important;
+    margin-top: 160px !important;
   }
 
   .notion-header__cover.no-cover {
@@ -243,7 +227,7 @@ h2 {
   }
 
   #page-index h1 {
-    font-size: 36px !important;
+    font-size: 32px !important;
   }
 
   .notion-header.page {
