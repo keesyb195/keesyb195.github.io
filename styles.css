@@ -251,15 +251,20 @@ p, ol {
         padding: 24px !important;
         width: 100% !important;
     }
-    h1 { font-size: 30px !important; }
-    .notion-collection-card { height: 420px !important; }
+  
+    h1 { font-size: 26px !important; }
+    h1 { font-size: 22px !important; }
+  
+    .notion-collection-card { height: 60px !important; }
     .notion-collection-card__content { display: none !important; }
     .notion-collection-list__item {
         justify-content: center !important;
         flex-direction: column !important;
         align-items: flex-start !important;
-        padding: 30px !important;
+        padding: 26px !important;
         height: 100px !important;
+      
+      
     }
     .notion-collection-list__item .notion-property__title {
         justify-content: flex-start !important;
