@@ -4,7 +4,7 @@
 
 /* Variables */
 :root {
-  --transition: all 0.3s !important;
+  --transition: all 0.2s !important;
 }
 
 /* Hides certain elements */
@@ -77,7 +77,7 @@ body {
 /* Super wrapper*/
 #page-index .super-content.max-width {
   max-width: 1800px !important;
-  padding: 0px 28px !important;
+  padding: 0px 45px !important;
 }
 
 /* Blog posts wrapper */
