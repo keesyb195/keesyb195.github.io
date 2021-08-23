@@ -318,12 +318,12 @@ h2 {
 @media (max-width: 680px) {
     .notion-header,
     #page-index .super-content {
-        margin-top: 300px !important;
+        margin-top: 100px !important;
     }
     .nav {
         background: var(--color-bg-default) !important;
         padding: 0 30px !important;
-        height: 80px !important;
+        height: 50px !important;
     }
     .nav-links {
         border-radius: var(--rounded-lg) !important;
@@ -346,7 +346,7 @@ h2 {
         flex-direction: column !important;
         align-items: flex-start !important;
         padding: 30px !important;
-        height: 200px !important;
+        height: 100px !important;
     }
     .notion-collection-list__item .notion-property__title {
         justify-content: flex-start !important;
