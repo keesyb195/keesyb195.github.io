@@ -1,5 +1,5 @@
 .notion-collection-card__cover > div {
-    background: linear-gradient(to top, rgba(0,0,0, 0.85), transparent 75%) !important;
+    background: linear-gradient(to top, rgba(0,0,0, 0.95), transparent 85%) !important;
 }
 
 .notion-collection-card__cover > div > img {
