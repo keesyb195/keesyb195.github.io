@@ -8,7 +8,7 @@
 #page-index .notion-collection-board {
   display: flex !important;
   border-top: 0px !important;
-  margin-top: 96px !important;
+  margin-top: 25px !important;
 }
 
 #page-index .notion-collection-board__column {
@@ -85,7 +85,7 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
  .notion-collection-board {
-   margin-top: 64px !important;
+   margin-top: 10px !important;
   }
 
   #page-index .notion-collection-board__column > div {
