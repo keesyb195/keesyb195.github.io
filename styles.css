@@ -101,7 +101,7 @@ p {
 
 /* Width limit only on homepage */
 #page-index h1 {
-  font-size: 55px !important;
+  font-size: 52px !important;
   max-width: 1600px !important;
 }
 
