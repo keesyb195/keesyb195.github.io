@@ -95,14 +95,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-  font-size: 22px !important;
+  font-size: 18px !important;
   line-height: 200% !important;
 }
 
 /* Width limit only on homepage */
 #page-index h1 {
-  font-size: 52px !important;
-  max-width: 1600px !important;
+  font-size: 48px !important;
+  max-width: 700px !important;
 }
 
 .notion-quote > * {
@@ -110,7 +110,6 @@ p {
 }
 
 .notion-header.page {
-  margin-top: 95px !impotant;
   margin-bottom: 0px !important;
   padding: 0px 48px !important;
 }
@@ -118,10 +117,6 @@ p {
 .notion-header__cover.no-cover {
     max-height: 0px !important;
 }
-
-
-
-
 
 /* Divider */
 .notion-divider {
@@ -169,12 +164,35 @@ p {
   font-size: 28px !important;
   font-weight: 400 !important;
 }
+
+/*—————————————————————————————————————————————*/
+/* Code block */
+code {
+  color: var(--color-text-gray) !important;
+  text-shadow: none !important;
+}
+
+.notion-code > pre {
+  background-color: var(--divider-color) !important;
+}
+
+.token {
+  background-color: transparent !important;
+}
+
+/*—————————————————————————————————————————————*/
+/* Tweet */
+.static-tweet-p {
+    color: #1c2022 !important;
+}
+
+
 /*—————————————————————————————————————————————*/
 /* About page */
 
 /* max height for first image only */
 #page-about img:first-child {
-    max-height: 400px !important;
+    max-height: 450px !important;
 }
 
 #page-about img[style] {
@@ -185,7 +203,7 @@ p {
 /* Blog post page */
 
 .notion-header__cover, .has-cover {
-    max-width: 1800px !important;
+    max-width: 900px !important;
     margin: 150px auto 64px auto !important;
     border-radius: 10px !important;
     height: 360px !important;
@@ -210,7 +228,7 @@ p {
 @media screen and (max-width: 600px) {
 
   #page-index .super-content {
-    margin-top: 5px !important;
+    margin-top: 160px !important;
   }
 
   .notion-header__cover.no-cover {
