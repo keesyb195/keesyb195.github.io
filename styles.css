@@ -8,6 +8,7 @@
 }
 
 /* Hides certain elements */
+.notion-header__cover
 .notion-page__icon,
 .notion-toggle.bg-gray,
 .notion-header__content,
@@ -79,9 +80,12 @@ body {
 }
 
 /* Blog posts wrapper */
+.notion-header__cover{
+  display: none !important;
+}
 .super-content.max-width {
-  max-width: 996px !important;
-  padding: 0px 48px !important;
+  max-width: 1200px !important;
+  padding: 0px 50px !important;
 }
 
 /* Always show the page title */
@@ -102,7 +106,7 @@ p {
 /* Width limit only on homepage */
 #page-index h1 {
   font-size: 48px !important;
-  max-width: 1000px !important;
+  max-width: 700px !important;
 }
 
 .notion-quote > * {
