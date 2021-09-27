@@ -76,7 +76,7 @@ body {
 /* Super wrapper*/
 #page-index .super-content.max-width {
   max-width: 1344px !important;
-  padding: 0px 48px !important;
+  padding: 100px 48px !important;
 }
 
 /* Blog posts wrapper */
