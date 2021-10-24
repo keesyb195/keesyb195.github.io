@@ -232,7 +232,7 @@ code {
 @media screen and (max-width: 600px) {
 
   #page-index .super-content {
-    margin-top: 160px !important;
+    margin-top: 40px !important;
   }
 
   .notion-header__cover.no-cover {
